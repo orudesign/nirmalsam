@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nirmal Sam — Digital Marketing &amp; SEO Specialist</title>
+<meta name="description" content="Nirmal Sam — Digital Marketing & SEO Specialist. Meta Ads, Google Ads, SEO, Performance Marketing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@300;400;500;600;700&family=Cormorant+Garamond:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="preloader" id="preloader">
+  <canvas id="preloader-canvas"></canvas>
+  <div class="preloader-inner">
+    <div class="preloader-mark">
+      <span class="pm-ring"></span>
+      <span class="pm-letter">N</span>
+    </div>
+    <div class="preloader-name">Nirmal&nbsp;Sam</div>
+    <div class="preloader-bar"><span id="preloader-fill"></span></div>
+    <div class="preloader-pct" id="preloader-pct">0%</div>
+  </div>
+</div>
+
+<!-- ============ CUSTOM CURSOR ============ -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- ============ AMBIENT BACKGROUND (persistent across pages) ============ -->
+<canvas id="sky-canvas"></canvas>
+<div class="ambient-layer" aria-hidden="true">
+  <div class="blur-orb orb-gold"></div>
+  <div class="blur-orb orb-violet"></div>
+  <div class="blur-orb orb-cyan"></div>
+  <div class="mist mist-1"></div>
+  <div class="mist mist-2"></div>
+  <div class="grain"></div>
+</div>
+
+<!-- ============ SCROLL PROGRESS ============ -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ============ NAVBAR ============ -->
+<header class="navbar" id="navbar">
+  <a href="#home" class="nav-logo" data-nav>
+    <span class="logo-ring"></span>
+    <span class="logo-text">Nirmal Sam<em></em></span>
+  </a>
+  <nav class="nav-links" id="navLinks">
+    <a href="#home" class="nav-link magnetic" data-nav data-page="home">Home</a>
+    <a href="#about" class="nav-link magnetic" data-nav data-page="about">About</a>
+    <a href="#experience" class="nav-link magnetic" data-nav data-page="experience">Experience</a>
+    <a href="#contact" class="nav-link magnetic" data-nav data-page="contact">Contact</a>
+    <div class="nav-underline" id="navUnderline"></div>
+  </nav>
+  <a href="#contact" class="nav-cta magnetic" data-nav>
+    <span>Let's Talk</span>
+  </a>
+  <button class="nav-burger" id="navBurger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ============ MOBILE MENU ============ -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" data-nav data-page="home">Home</a>
+  <a href="#about" data-nav data-page="about">About</a>
+  <a href="#experience" data-nav data-page="experience">Experience</a>
+  <a href="#contact" data-nav data-page="contact">Contact</a>
+</div>
+
+<main id="app">
+
+  <!-- ================================================= -->
+  <!-- PAGE: HOME -->
+  <!-- ================================================= -->
+  <section class="page" id="page-home" data-page="home">
+
+    <section class="hero">
+      <div class="hero-inner">
+        <p class="hero-eyebrow reveal-up"><span class="eyebrow-pulse"></span> Available for new campaigns</p>
+        <h1 class="hero-title">
+          <span class="line" data-typed>Hello, I'm</span>
+          <span class="line hero-name">Nirmal <em>Sam</em></span>
+        </h1>
+        <p class="hero-subtitle reveal-up" data-delay="1">
+          A <strong>Digital Marketing &amp; SEO Specialist</strong> crafting data‑driven growth stories through Meta&nbsp;Ads, Google&nbsp;Ads, SEO &amp; performance marketing.
+        </p>
+        <div class="hero-actions reveal-up" data-delay="2">
+          <a href="#contact" class="btn btn-glow magnetic" data-nav><span>Start a Project</span></a>
+          <a href="#experience" class="btn btn-ghost magnetic" data-nav><span>View Experience</span></a>
+        </div>
+      </div>
+
+      <div class="hero-portrait">
+        <div class="halo"></div>
+        <div class="portrait-particles" id="portraitParticles"></div>
+        <div class="portrait-tilt" id="portraitTilt">
+          <img src="assets/hero.jpg" alt="Nirmal Sam, Digital Marketing &amp; SEO Specialist" class="portrait-img" width="640" height="853">
+          <div class="portrait-glow"></div>
+        </div>
+        <div class="orbit-badge badge-1">SEO</div>
+        <div class="orbit-badge badge-2">Meta Ads</div>
+        <div class="orbit-badge badge-3">Google Ads</div>
+        <div class="orbit-badge badge-4">Performance</div>
+      </div>
+
+      <div class="scroll-cue">
+        <span>Scroll</span>
+        <div class="scroll-cue-line"><i></i></div>
+      </div>
+    </section>
+
+    <section class="stats-section">
+      <div class="stats-grid">
+        <div class="stat-card reveal-up">
+          <span class="stat-number" data-count="20" data-prefix="₹" data-suffix="cr+">0</span>
+          <span class="stat-label">Revenue Generated</span>
+        </div>
+        <div class="stat-card reveal-up" data-delay="1">
+          <span class="stat-number" data-count="3" data-suffix="X">0</span>
+          <span class="stat-label">Lead Growth</span>
+        </div>
+        <div class="stat-card reveal-up" data-delay="2">
+          <span class="stat-number" data-count="10" data-suffix="+">0</span>
+          <span class="stat-label">Brands Managed</span>
+        </div>
+        <div class="stat-card reveal-up" data-delay="3">
+          <span class="stat-number" data-count="6" data-suffix="+">0</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat-card reveal-up" data-delay="4">
+          <span class="stat-number" data-count="200" data-suffix="+">0</span>
+          <span class="stat-label">Campaigns Created</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section">
+      <p class="section-eyebrow reveal-up">What I Do</p>
+      <h2 class="section-title reveal-up">Services, <em>refined into craft.</em></h2>
+
+      <div class="services-grid">
+        <article class="service-card reveal-up" data-tilt>
+          <div class="service-liquid"></div>
+          <span class="service-icon">◎</span>
+          <h3>Meta Ads</h3>
+          <p>Campaigns engineered for reach, leads &amp; measurable business growth.</p>
+        </article>
+        <article class="service-card reveal-up" data-tilt data-delay="1">
+          <div class="service-liquid"></div>
+          <span class="service-icon">▲</span>
+          <h3>Google Ads</h3>
+          <p>Targeted search &amp; display traffic that converts into quality leads.</p>
+        </article>
+        <article class="service-card reveal-up" data-tilt data-delay="2">
+          <div class="service-liquid"></div>
+          <span class="service-icon">✦</span>
+          <h3>SEO</h3>
+          <p>Organic visibility built to compound — more traffic, more trust.</p>
+        </article>
+        <article class="service-card reveal-up" data-tilt data-delay="3">
+          <div class="service-liquid"></div>
+          <span class="service-icon">◈</span>
+          <h3>SEM</h3>
+          <p>Search engine marketing that blends paid &amp; organic strategy.</p>
+        </article>
+        <article class="service-card reveal-up" data-tilt data-delay="4">
+          <div class="service-liquid"></div>
+          <span class="service-icon">↗</span>
+          <h3>Performance Marketing</h3>
+          <p>Data‑optimised campaigns, tuned continuously for ROI.</p>
+        </article>
+        <article class="service-card reveal-up" data-tilt data-delay="5">
+          <div class="service-liquid"></div>
+          <span class="service-icon">◐</span>
+          <h3>Lead Generation</h3>
+          <p>Funnels built to turn strangers into qualified enquiries.</p>
+        </article>
+        <article class="service-card reveal-up" data-tilt data-delay="6">
+          <div class="service-liquid"></div>
+          <span class="service-icon">✎</span>
+          <h3>Content Strategy</h3>
+          <p>Narratives aligned with brand voice &amp; business goals.</p>
+        </article>
+        <article class="service-card reveal-up" data-tilt data-delay="7">
+          <div class="service-liquid"></div>
+          <span class="service-icon">◇</span>
+          <h3>Marketing Analytics</h3>
+          <p>Turning GA4 &amp; GTM data into decisions that matter.</p>
+        </article>
+        <article class="service-card reveal-up" data-tilt data-delay="8">
+          <div class="service-liquid"></div>
+          <span class="service-icon">✉</span>
+          <h3>Email Marketing</h3>
+          <p>Personalised sequences that nurture leads &amp; drive repeat action.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="cases-section">
+      <p class="section-eyebrow reveal-up">Case Studies</p>
+      <h2 class="section-title reveal-up">Brands I've <em>grown.</em></h2>
+
+      <div class="cases-slider reveal-up">
+        <div class="cases-track" id="casesTrack">
+          <article class="case-card">
+            <div class="case-media" style="--hue:38"></div>
+            <div class="case-overlay">
+              <span class="case-tag">Travel &amp; Study Abroad</span>
+              <h3>M&amp;G Holidays</h3>
+              <p>Lead funnels &amp; performance campaigns across overseas education &amp; travel.</p>
+              <button class="btn-mini magnetic">View Approach →</button>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-media" style="--hue:210"></div>
+            <div class="case-overlay">
+              <span class="case-tag">Overseas Education</span>
+              <h3>Geebee Education</h3>
+              <p>Meta &amp; Google Ads driving qualified student enquiries at scale.</p>
+              <button class="btn-mini magnetic">View Approach →</button>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-media" style="--hue:265"></div>
+            <div class="case-overlay">
+              <span class="case-tag">Design &amp; Development</span>
+              <h3>Nevonixa</h3>
+              <p>Brand visibility &amp; SEO strategy for a full‑stack digital studio.</p>
+              <button class="btn-mini magnetic">View Approach →</button>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-media" style="--hue:45"></div>
+            <div class="case-overlay">
+              <span class="case-tag">Real Estate</span>
+              <h3>Shilpalaya Builders</h3>
+              <p>Premium positioning &amp; lead generation for a builders &amp; developers brand.</p>
+              <button class="btn-mini magnetic">View Approach →</button>
+            </div>
+          </article>
+          <article class="case-card">
+            <div class="case-media" style="--hue:170"></div>
+            <div class="case-overlay">
+              <span class="case-tag">Real Estate</span>
+              <h3>Level 100</h3>
+              <p>Performance marketing built around "You Are Home."</p>
+              <button class="btn-mini magnetic">View Approach →</button>
+            </div>
+          </article>
+        </div>
+        <div class="slider-dots" id="sliderDots"></div>
+      </div>
+
+      <div class="cases-stats">
+        <div class="cstat reveal-up"><strong>50+</strong><span>Projects Completed</span></div>
+        <div class="cstat reveal-up" data-delay="1"><strong>30+</strong><span>Brands Helped</span></div>
+        <div class="cstat reveal-up" data-delay="2"><strong>100%</strong><span>Client Satisfaction</span></div>
+        <div class="cstat reveal-up" data-delay="3"><strong>3X+</strong><span>Average Growth</span></div>
+      </div>
+    </section>
+
+    <section class="tools-section">
+      <p class="section-eyebrow reveal-up">Toolkit</p>
+      <h2 class="section-title reveal-up">Platforms &amp; <em>tools.</em></h2>
+      <div class="tools-grid">
+        <div class="tool-chip reveal-up" style="--i:0"><span class="tool-dot"></span>Meta Ads Manager</div>
+        <div class="tool-chip reveal-up" style="--i:1"><span class="tool-dot"></span>Google Ads</div>
+        <div class="tool-chip reveal-up" style="--i:2"><span class="tool-dot"></span>GA4</div>
+        <div class="tool-chip reveal-up" style="--i:3"><span class="tool-dot"></span>Google Tag Manager</div>
+        <div class="tool-chip reveal-up" style="--i:4"><span class="tool-dot"></span>Search Console</div>
+        <div class="tool-chip reveal-up" style="--i:5"><span class="tool-dot"></span>Canva</div>
+        <div class="tool-chip reveal-up" style="--i:6"><span class="tool-dot"></span>CapCut</div>
+        <div class="tool-chip reveal-up" style="--i:7"><span class="tool-dot"></span>ChatGPT</div>
+        <div class="tool-chip reveal-up" style="--i:8"><span class="tool-dot"></span>Claude AI</div>
+        <div class="tool-chip reveal-up" style="--i:9"><span class="tool-dot"></span>Gemini</div>
+        <div class="tool-chip reveal-up" style="--i:10"><span class="tool-dot"></span>Deepseek</div>
+        <div class="tool-chip reveal-up" style="--i:11"><span class="tool-dot"></span>WordPress</div>
+        <div class="tool-chip reveal-up" style="--i:12"><span class="tool-dot"></span>Elementor</div>
+        <div class="tool-chip reveal-up" style="--i:13"><span class="tool-dot"></span>Google Workspace</div>
+      </div>
+    </section>
+
+  </section>
+
+  <!-- ================================================= -->
+  <!-- PAGE: ABOUT -->
+  <!-- ================================================= -->
+  <section class="page" id="page-about" data-page="about">
+    <section class="about-hero">
+      <div class="about-left">
+        <p class="section-eyebrow reveal-up">About</p>
+        <h1 class="about-heading reveal-up">Strategy meets<br><em>storytelling.</em></h1>
+        <div class="about-copy">
+          <p class="reveal-up" data-delay="1">Hi, I'm <span class="hl">Nirmal Sam</span>, a Digital Marketing Manager with <span class="hl">6+ years of experience</span>, specialising in Meta Advertising, Google Ads, SEO, Social Media Marketing, Performance Marketing, Lead Generation, Content Strategy and Marketing Analytics.</p>
+          <p class="reveal-up" data-delay="2">I've worked with brands across <span class="hl">overseas education, home theatre &amp; acoustics, furniture, beauty, automotive, real estate, healthcare</span> and events — helping each one increase visibility, generate high‑quality leads and achieve measurable growth through data‑driven strategy.</p>
+          <p class="reveal-up" data-delay="3">My toolkit spans Meta Ads, Google Ads, SEO, SEM, performance marketing, social &amp; content management, email marketing, GA4, GTM and marketing automation — I like pairing creativity with analytics to maximise every rupee of ROI.</p>
+        </div>
+
+        <div class="about-timeline reveal-up" data-delay="4">
+          <div class="mini-timeline-item">
+            <span class="mt-dot"></span>
+            <div><strong>2017</strong><p>B.Voc Retail Management &amp; IT — Kuriakose Elias College</p></div>
+          </div>
+          <div class="mini-timeline-item">
+            <span class="mt-dot"></span>
+            <div><strong>2018</strong><p>Digital Marketing Certification — IPSR Solutions Limited</p></div>
+          </div>
+          <div class="mini-timeline-item">
+            <span class="mt-dot"></span>
+            <div><strong>2024</strong><p>Digital Marketing with AI — Daily Skills, Kochi</p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-right">
+        <div class="about-glow"></div>
+        <div class="about-ring ring-1"></div>
+        <div class="about-ring ring-2"></div>
+        <div class="glass-shard shard-1"></div>
+        <div class="glass-shard shard-2"></div>
+        <div class="about-portrait">
+          <img src="assets/about.jpg" alt="Nirmal Sam portrait" width="600" height="1000">
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section">
+      <p class="section-eyebrow reveal-up">Skills</p>
+      <h2 class="section-title reveal-up">Fluent <em>in growth.</em></h2>
+      <div class="skills-cloud" id="skillsCloud">
+        <span class="skill-pill">Meta Ads</span>
+        <span class="skill-pill">Google Ads</span>
+        <span class="skill-pill">SEO</span>
+        <span class="skill-pill">SEM</span>
+        <span class="skill-pill">Lead Generation</span>
+        <span class="skill-pill">Performance Marketing</span>
+        <span class="skill-pill">Social Media Marketing</span>
+        <span class="skill-pill">Content Strategy</span>
+        <span class="skill-pill">Content Marketing</span>
+        <span class="skill-pill">Email Marketing</span>
+        <span class="skill-pill">Marketing Analytics</span>
+        <span class="skill-pill">Google Analytics (GA4)</span>
+        <span class="skill-pill">Google Tag Manager</span>
+        <span class="skill-pill">Conversion Optimization</span>
+        <span class="skill-pill">Brand Strategy</span>
+        <span class="skill-pill">Campaign Optimization</span>
+        <span class="skill-pill">Copywriting</span>
+        <span class="skill-pill">Marketing Automation</span>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================================================= -->
+  <!-- PAGE: EXPERIENCE -->
+  <!-- ================================================= -->
+  <section class="page" id="page-experience" data-page="experience">
+    <section class="experience-section">
+      <p class="section-eyebrow reveal-up">Career</p>
+      <h2 class="section-title reveal-up">A journey through <em>growth.</em></h2>
+
+      <div class="timeline" id="timelineWrap">
+        <svg class="timeline-line" viewBox="0 0 4 1000" preserveAspectRatio="none">
+          <defs>
+            <linearGradient id="lineGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#f2c879"/>
+              <stop offset="50%" stop-color="#8f7dff"/>
+              <stop offset="100%" stop-color="#6fe3d9"/>
+            </linearGradient>
+          </defs>
+          <path id="timelinePath" d="M2,0 L2,1000" />
+        </svg>
+
+        <div class="timeline-item reveal-up" data-side="left">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-period">June 2024 — Present</span>
+            <h3>Digital Marketing Manager</h3>
+            <p class="tl-company">M&amp;G Group of Companies</p>
+            <p class="tl-desc">Leading digital strategy across Study Abroad, Travel Agency &amp; Recruitment verticals — Meta &amp; Google Ads, SEO and lead generation at scale.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-up" data-side="right" data-delay="1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-period">Dec 2022 — Feb 2024</span>
+            <h3>Digital Marketing Manager</h3>
+            <p class="tl-company">Melbourne Media Factory Pvt Ltd, Kochi</p>
+            <p class="tl-desc">Managed integrated campaigns and performance marketing for multiple client brands, driving measurable growth in reach &amp; conversions.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-up" data-side="left" data-delay="2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="tl-period">Dec 2019 — Dec 2022</span>
+            <h3>Digital Marketing Executive</h3>
+            <p class="tl-company">Life Planner Group of Companies, Kottayam</p>
+            <p class="tl-desc">Built foundational marketing systems across Study Abroad, Foreign Language Academy &amp; Filmatic — social, content &amp; lead campaigns.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="section-eyebrow reveal-up edu-eyebrow">Education</p>
+      <h2 class="section-title reveal-up">Built on <em>fundamentals.</em></h2>
+
+      <div class="edu-grid">
+        <div class="edu-card reveal-up">
+          <span class="edu-year">2024</span>
+          <h4>Digital Marketing with AI</h4>
+          <p>Daily Skills, Kochi</p>
+        </div>
+        <div class="edu-card reveal-up" data-delay="1">
+          <span class="edu-year">2018</span>
+          <h4>Digital Marketing</h4>
+          <p>IPSR Solutions Limited</p>
+        </div>
+        <div class="edu-card reveal-up" data-delay="2">
+          <span class="edu-year">2017</span>
+          <h4>B.Voc Retail Management &amp; IT</h4>
+          <p>Kuriakose Elias College, Mannanam</p>
+        </div>
+        <div class="edu-card reveal-up" data-delay="3">
+          <span class="edu-year">2014</span>
+          <h4>Higher Secondary (Plus Two)</h4>
+          <p>Girideepam Bethany English HSS</p>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- ================================================= -->
+  <!-- PAGE: CONTACT -->
+  <!-- ================================================= -->
+  <section class="page" id="page-contact" data-page="contact">
+    <section class="contact-section">
+      <div class="contact-bg-map" aria-hidden="true"></div>
+      <p class="section-eyebrow reveal-up">Contact</p>
+      <h2 class="contact-heading reveal-up">Let's Build Something<br><em>Amazing.</em></h2>
+      <p class="contact-sub reveal-up" data-delay="1">Have a brand that needs a growth story? Tell me about it — I read every message.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal-up" data-delay="2">
+          <div class="floating-email">✉</div>
+          <h3>Get in touch</h3>
+          <a class="contact-line" href="mailto:nirmalsam.sam@gmail.com">nirmalsam.sam@gmail.com</a>
+          <a class="contact-line" href="tel:+91 95671 81715">+91 95671 81715</a>
+          <p class="contact-loc">Kochi, Kerala, India</p>
+          <div class="social-row">
+            <a href="#" class="social-icon magnetic" aria-label="LinkedIn">in</a>
+            <a href="#" class="social-icon magnetic" aria-label="Instagram">ig</a>
+            <a href="#" class="social-icon magnetic" aria-label="X">x</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal-up" data-delay="3" id="contactForm">
+          <div class="form-row">
+            <label>Name</label>
+            <input type="text" name="name" placeholder="Your full name" required>
+          </div>
+          <div class="form-row">
+            <label>Email</label>
+            <input type="email" name="email" placeholder="you@company.com" required>
+          </div>
+          <div class="form-row">
+            <label>Message</label>
+            <textarea name="message" rows="4" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-glow magnetic full-width"><span>Send Message</span></button>
+          <p class="form-status" id="formStatus"></p>
+        </form>
+      </div>
+    </section>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-glow"></div>
+  <div class="footer-inner">
+    <div class="footer-logo">Nirmal<em></em>Sam</div>
+    <p class="footer-tag">Digital Marketing &amp; SEO Specialist — building growth stories since 2019.</p>
+    <div class="footer-links">
+      <a href="#home" data-nav data-page="home">Home</a>
+      <a href="#about" data-nav data-page="about">About</a>
+      <a href="#experience" data-nav data-page="experience">Experience</a>
+      <a href="#contact" data-nav data-page="contact">Contact</a>
+   </div>
+
+<p class="footer-copy" id="footerCopy">
+  Designed and Developed by
+  <a href="https://www.orudesign.in/" target="_blank" rel="noopener noreferrer">
+    Oru Design Creative Studio
+  </a>.
+</p>
+
+</div>
+  <button class="back-to-top magnetic" id="backToTop" aria-label="Back to top">↑</button>
+  <div class="footer-particles" aria-hidden="true"></div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
